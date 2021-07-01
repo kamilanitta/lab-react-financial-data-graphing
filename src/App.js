@@ -10,6 +10,11 @@ function App() {
       <BrowserRouter>
         <Route path="/" component={Chart} />
       </BrowserRouter>
+      <div>
+        <p className="mt-5" style={{ fontSize: "8pt" }}>
+          “Powered by CoinDesk”
+        </p>
+      </div>
     </div>
   );
 }
